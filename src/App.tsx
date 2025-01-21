@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Adele from "./assets/Adele - Someone Like You (Official Music Video).mp3";
+import silence from "./assets/250-milliseconds-of-silence.mp3";
 
 export default function Page() {
   const [noCount, setNoCount] = useState(0);
@@ -65,7 +66,11 @@ export default function Page() {
           </div>
         </>
       )}
-       <audio id="audio_tag" src={Adele} autoPlay/>
+      <br/>
+      <br/>
+      <h2>Odtwórz ⬇️</h2>
+      <iframe src={silence} allow="autoplay" id="audio" style={{ display: "none" }}></iframe>
+       <audio id="audio_tag" src={Adele} controls autoPlay/>
     </div>
   );
 }
