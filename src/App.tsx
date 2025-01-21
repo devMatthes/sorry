@@ -16,7 +16,7 @@ export default function Page() {
     const phrases = [
       "Nie",
       "Na pewno?",
-      "Co jeśli bardzo ładnie poproszę?",
+      "Co jeśli bardzo ładnie przeproszę?",
       "No weeeeeź, mysza <3",
       "Zabiorę cię na EFES... ",
       "...Podwójny!",
@@ -28,8 +28,8 @@ export default function Page() {
       "👉👈",
       "Lubię cię",
       "Kocham cię",
-      "Kuuuuupię kwiaty i cavaliera",
-      "a na ślubie zagra sentino na zywo i beyonce, i adele, i nawet kurwa krawczyka wskrzeszę dla cb",
+      "Kuuuuupię kwiaty i cavaliera, i bieliznę",
+      "a na ślubie zagra sentino na zywo i beyonce, i adele, wszystko dla cb",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
