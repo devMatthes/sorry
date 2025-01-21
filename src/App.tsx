@@ -30,6 +30,9 @@ export default function Page() {
       "Kocham cię",
       "Kuuuuupię kwiaty i cavaliera, i bieliznę",
       "a na ślubie zagra sentino na zywo i beyonce, i adele, wszystko dla cb",
+      "i zrobię ci śniadanie w łóżku",
+      "i zabiorę do grecji",
+      "pogódźmy się - bądź moją walentynką ❤️"
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
