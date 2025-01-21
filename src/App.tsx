@@ -6,7 +6,7 @@ import silence from "./assets/250-milliseconds-of-silence.mp3";
 export default function Page() {
   const [noCount, setNoCount] = useState(0);
   const [yesPressed, setYesPressed] = useState(false);
-  const yesButtonSize = noCount * 20 + 16;
+  const yesButtonSize = noCount * 8 + 16;
 
   const handleNoClick = () => {
     setNoCount(noCount + 1);
@@ -15,7 +15,6 @@ export default function Page() {
   const getNoButtonText = () => {
     const phrases = [
       "Nie",
-      "Na pewno?",
       "Co jeśli bardzo ładnie przeproszę?",
       "No weeeeeź, mysza <3",
       "Zabiorę cię na EFES... ",
@@ -30,7 +29,7 @@ export default function Page() {
       "Kocham cię",
       "Kuuuuupię kwiaty i cavaliera, i bieliznę",
       "a na ślubie zagra sentino na zywo i beyonce, i adele, wszystko dla cb",
-      "i zrobię ci śniadanie w łóżku",
+      "i zrobię ci śniadanie do łóżka",
       "i zabiorę do grecji",
       "pogódźmy się - bądź moją walentynką ❤️"
     ];
